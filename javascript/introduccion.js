@@ -1,0 +1,1 @@
+alert('Hola carliti, soy javascript desde un archivo externo');

@@ -1,0 +1,10 @@
+html
+css
+javascript
+sql
+php
+
+
+&&(amperson)= para que se cumplan las 2 condiciones
+
+||= 

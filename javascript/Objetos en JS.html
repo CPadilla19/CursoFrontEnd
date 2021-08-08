@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos en JS</title>
+</head>
+<body>
+    <script>
+
+function persona(nombre, edad, pais){
+    this.nombre = nombre
+    this.edad = edad
+    this.pais = pais
+
+}
+
+var ayuso = new persona('Ayuso', 21, 'España')
+
+document.write(ayuso.edad)
+
+    </script>
+</body>
+</html>

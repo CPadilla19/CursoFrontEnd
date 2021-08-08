@@ -1,0 +1,19 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+    color: #4281ed;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}

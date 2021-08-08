@@ -1,0 +1,11 @@
+$colorPrimario: #1b3d82;
+$colorugly:rgba(6, 67, 235, 0.651);
+
+.articulo{
+    .titulo{
+        color: $colorPrimario;
+    }
+    p{
+        color: $colorugly;
+    }
+}

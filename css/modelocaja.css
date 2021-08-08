@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 22px;
+}
+
+.caja{
+    background: #0353a4;
+    width: 200px;
+   
+    margin: 20px;
+    padding: 20px 0px;
+    border: 6px solid #000;
+  
+}
+.caja p{
+    background: #eee5e9;
+}

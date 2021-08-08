@@ -1,0 +1,17 @@
+body{font-size: 16px;}
+
+p{
+    font-size: 1.5em;
+}
+
+.contenedor_padre{
+    font-size: 1.25em;
+}
+
+.hijo{
+    width: 10rem;
+    height: 10rem;
+    background: black;
+    color: white;
+
+}

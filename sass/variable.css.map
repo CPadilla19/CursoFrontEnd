@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,iBAAO,CACH,KAAK,CALG,OAAO,CAOnB,WAAC,CACG,KAAK,CAPF,oBAAuB",
+"sources": ["variables.scss"],
+"names": [],
+"file": "variable.css"
+}
