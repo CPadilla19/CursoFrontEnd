@@ -157,26 +157,53 @@ header {
       .main .precios .plan.verde .btn:hover {
         background: #86b773;
         color: #fff; }
-    .main .precios .plan.verde .nombre,
-    .main .precios .plan.verde .precio {
-      color: #86b773; }
-    .main .precios .plan.verde .btn {
-      color: #86b773;
-      border: 2px solid #86b773;
+    .main .precios .plan.active {
+      background: #4c8dce;
+      color: #fff; }
+      .main .precios .plan.active .btn {
+        color: #fff;
+        border: 2px solid #fff;
+        text-decoration: none; }
+        .main .precios .plan.active .btn:hover {
+          background: #fff;
+          color: #4c8dce; }
+    .main .precios .plan.naranja .nombre,
+    .main .precios .plan.naranja .precio {
+      color: #ddb146; }
+    .main .precios .plan.naranja .btn {
+      color: #ddb146;
+      border: 2px solid #ddb146;
       text-decoration: none; }
-      .main .precios .plan.verde .btn:hover {
-        background: #86b773;
+      .main .precios .plan.naranja .btn:hover {
+        background: #ddb146;
         color: #fff; }
-    .main .precios .plan.verde .nombre,
-    .main .precios .plan.verde .precio {
-      color: #86b773; }
-    .main .precios .plan.verde .btn {
-      color: #86b773;
-      border: 2px solid #86b773;
-      text-decoration: none; }
-      .main .precios .plan.verde .btn:hover {
-        background: #86b773;
-        color: #fff; }
+
+.main .reviews {
+  padding: 70px; }
+  .main .reviews .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #4facd3;
+    margin-bottom: 70px; }
+  .main .reviews .cliente {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .main .reviews .cliente .foto {
+      width: 25%;
+      float: left;
+      text-align: right; }
+      .main .reviews .cliente .foto img {
+        max-width: 100px;
+        width: 100%;
+        vertical-align: top;
+        border-radius: 100%; }
+    .main .reviews .cliente .review {
+      float: left;
+      width: 80%;
+      padding: 0 30px;
+      margin-top: 20px; }
 
 * {
   margin: 0;

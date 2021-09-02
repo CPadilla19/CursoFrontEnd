@@ -142,32 +142,30 @@
                 }
             }
 
-            &.verde{
-                .nombre,
-                .precio{
-                    color: #86b773;
-                }
+            &.active{
+                    background: #4c8dce;
+                    color: #fff;
                 .btn{
-                    color: #86b773;
-                    border: 2px solid #86b773;
+                    color: #fff;
+                    border: 2px solid #fff;
                     text-decoration: none;
                     &:hover{
-                        background: #86b773;
-                        color: #fff;
+                        background: #fff;
+                        color: #4c8dce;
                     }
                 }
             }
-             &.verde{
+             &.naranja{
                 .nombre,
                 .precio{
-                    color: #86b773;
+                    color: #ddb146;
                 }
                 .btn{
-                    color: #86b773;
-                    border: 2px solid #86b773;
+                    color: #ddb146;
+                    border: 2px solid #ddb146;
                     text-decoration: none;
                     &:hover{
-                        background: #86b773;
+                        background: #ddb146;
                         color: #fff;
                     }
                 }
