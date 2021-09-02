@@ -1,0 +1,33 @@
+verde emblematico:  #54ec6d / #2de84c 
+
+naranja emblematico:  #f3e36d /  #fbc258 /  #feb630 
+
+naranja: #f07d09 /  #ff4d00 /  #ff4601 
+
+letrero:
+
+fondo: arriba=  #fe8a00 / abajo=  #f9a33d 
+
+ll: #54ec6d
+
+a: #e40606 
+
+m:  #9740f3 
+
+i:  arriba= #fe8a00 / abajo=  #f9a33d 
+
+n:  #1c88fb 
+
+a: #e40606 
+
+d: #54ec6d
+
+u: #9740f3 
+
+r: #1c88fb
+
+e: #f9a33d 
+
+s: #e40606 
+
+mary: bold / #000

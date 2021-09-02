@@ -1,0 +1,1 @@
+cambiar el grosor de las letras de llaminadures (header)

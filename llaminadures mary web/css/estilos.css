@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", Arial;
+  font-size: 16px; }
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden; }
+
+header {
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 600px;
+  background: #ff8b00;
+  background: -moz-linear-gradient(top, #ff8b00 0%, #f9a33d 100%);
+  background: -webkit-linear-gradient(top, #ff8b00 0%, #f9a33d 100%);
+  background: linear-gradient(to bottom, #ff8b00 0%, #f9a33d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b00', endColorstr='#f9a33d',GradientType=0 ); }
+  header .menu {
+    text-align: right;
+    margin: 20px 0;
+    width: 100%; }
+    header .menu a {
+      color: #000;
+      font-size: 16px;
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 300; }
+      header .menu a:hover {
+        text-decoration: underline;
+        color: #fff; }
+  header .textos .llaminadures {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    color: #000; }
+  header .textos .wordVerde {
+    color: #54EC6D; }
+  header .textos .wordRed {
+    color: #E40606; }
+  header .textos .wordPurple {
+    color: #9740F3; }
+  header .textos .wordNaranja {
+    color: #FE8A00; }
+  header .textos .wordAzul {
+    color: #1C88FB; }
+  header .textos .mary {
+    position: absolute;
+    width: 85.15px;
+    height: 25.84px;
+    left: 1100px;
+    top: 106.54px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.13em;
+    color: #000000;
+    transform: matrix(0.97, -0.27, 0.25, 0.96, 0, 0); }
+
+/*# sourceMappingURL=estilos.css.map */
