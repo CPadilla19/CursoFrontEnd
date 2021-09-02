@@ -51,9 +51,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b00', end
     .textos{
         .llaminadures{
             text-align: center;
-            font-size: 60px;
+            font-size: 70px;
             font-weight: 400;
             color: #000;
+            -webkit-text-stroke:7px #fff;
+            paint-order:stroke;
         }
         .wordVerde{
             color: #54EC6D;
@@ -74,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b00', end
             position: absolute;
             width: 85.15px;
             height: 25.84px;
-            left: 1100px;
+            left: 900px;
             top: 106.54px;
             font-style: normal;
             font-weight: 600;
