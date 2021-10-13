@@ -24,20 +24,22 @@ header {
   background: -webkit-linear-gradient(top, #ff8b00 0%, #f9a33d 100%);
   background: linear-gradient(to bottom, #ff8b00 0%, #f9a33d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b00', endColorstr='#f9a33d',GradientType=0 ); }
+  header .number {
+    color: #fff;
+    font-weight: 300; }
   header .menu {
     text-align: right;
-    margin: 20px 0;
-    width: 100%; }
+    margin: 20px 0; }
     header .menu a {
-      color: #000;
-      font-size: 16px;
+      color: #fff;
+      font-size: 18px;
       display: inline-block;
       margin: 0 10px;
       text-decoration: none;
       font-weight: 300; }
       header .menu a:hover {
         text-decoration: underline;
-        color: #fff; }
+        color: #d1d1d1; }
   header .textos .llaminadures {
     text-align: center;
     font-size: 70px;
@@ -67,5 +69,36 @@ header {
     letter-spacing: 0.13em;
     color: #000000;
     transform: matrix(0.97, -0.27, 0.25, 0.96, 0, 0); }
+
+.main {
+  background: #FBC258; }
+  .main .contenedor-fotosprincipales {
+    max-width: 1920px;
+    margin: auto;
+    overflow: hidden; }
+  .main .fotosprincipales {
+    position: static; }
+  .main .textomain {
+    color: #FF4D00;
+    font-size: 35px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center; }
+  .main .contenedor-encargos .foto {
+    width: 50%;
+    float: left; }
+    .main .contenedor-encargos .foto img {
+      width: 100%;
+      vertical-align: top;
+      opacity: 0.9; }
+      .main .contenedor-encargos .foto img:hover {
+        opacity: 1;
+        transition: all .3s ease; }
+  .main .mapa {
+    width: 100%;
+    overflow: hidden; }
+    .main .mapa .iframe {
+      width: 100%;
+      max-height: 600px; }
 
 /*# sourceMappingURL=estilos.css.map */

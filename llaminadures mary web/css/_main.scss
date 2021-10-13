@@ -1,0 +1,43 @@
+.main{
+    background: #FBC258;
+    .contenedor-fotosprincipales{
+        max-width: 1920px;
+        margin: auto;
+        overflow: hidden;
+
+    }
+    .fotosprincipales{
+        position:static;
+    }
+      
+    .textomain{
+        color: #FF4D00;
+        font-size: 35px;
+        font-weight:800;
+        font-style: italic;
+        text-align: center;
+    }
+    .contenedor-encargos{
+       .foto{
+        width: 50%;
+        float: left;
+        img{
+            width: 100%;
+            vertical-align: top;
+            opacity: 0.9;
+            &:hover{
+                opacity: 1;
+                transition: all .3s ease;
+            }
+        }
+       }
+    }
+    .mapa{
+        width: 100%;
+    overflow: hidden;
+        .iframe{
+            width: 100%;
+            max-height: 600px;
+        }
+    }
+}

@@ -24,19 +24,22 @@ header{
     background-repeat: no-repeat;
     max-height: 600px;
     background: #ff8b00;
-background: -moz-linear-gradient(top,  #ff8b00 0%, #f9a33d 100%);
-background: -webkit-linear-gradient(top,  #ff8b00 0%,#f9a33d 100%);
-background: linear-gradient(to bottom,  #ff8b00 0%,#f9a33d 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b00', endColorstr='#f9a33d',GradientType=0 );
+    background: -moz-linear-gradient(top,  #ff8b00 0%, #f9a33d 100%);
+    background: -webkit-linear-gradient(top,  #ff8b00 0%,#f9a33d 100%);
+    background: linear-gradient(to bottom,  #ff8b00 0%,#f9a33d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b00', endColorstr='#f9a33d',GradientType=0 );
+    .number{
+        color: #fff;
+        font-weight: 300;
+    }
 
     .menu{
         text-align: right;
         margin: 20px 0;
-        width: 100%;
 
         a{
-            color: #000;
-            font-size: 16px;
+            color: #fff;
+            font-size: 18px;
             display: inline-block;
             margin: 0 10px;
             text-decoration: none;
@@ -44,7 +47,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b00', end
 
             &:hover{
                 text-decoration: underline;
-                color: #fff;
+                color: rgb(209, 209, 209);
             }
         }
     }
